@@ -292,7 +292,7 @@ public class Main {
                     musicPlayer.playMusic("applause.wav");
                 }
                 welcomeText.setColour("GREEN");
-                welcomeText.setText("Player 1 wins the round!");
+                welcomeText.setText("Player 2 wins the round!");
                 //reset balls locations and speed
                 xvelocity = 0;
                 yvelocity = 0;
@@ -309,7 +309,7 @@ public class Main {
                     musicPlayer.playMusic("applause.wav");
                 }
                 welcomeText.setColour("YELLOW");
-                welcomeText.setText("Player 2 wins the round!");
+                welcomeText.setText("Player 1 wins the round!");
                 //reset balls locations and speed
                 xvelocity = 0;
                 yvelocity = 0;
